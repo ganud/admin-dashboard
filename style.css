@@ -171,7 +171,7 @@ button {
   display: grid;
   grid-row: 1/3;
   grid-column: 1/2;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
   grid-template-rows: 1fr 1fr 1fr;
   gap: 20px;
 }
@@ -193,7 +193,7 @@ button {
   position: relative;
   margin-top: 20px;
   border-radius: 20px;
-  padding: 40px;
+  padding: 30px;
   background-color: #444;
   display: flex;
   flex-direction: column;
@@ -201,7 +201,7 @@ button {
 
 .trending {
   position: relative;
-  margin-top: 20px;
+  margin-top: 40px;
   border-radius: 20px;
   padding: 20px;
   background-color: #444;
@@ -234,9 +234,14 @@ button {
   flex: 1;
   display: flex;
   background-color: #444;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
+.announcement-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
 .announcement-text h1 {
   font-weight: bold;
 }
@@ -263,6 +268,11 @@ button {
   border-radius: 50%;
 }
 
+.trending-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
 .trending-text h2 {
   color: rgb(180, 178, 178);
 }
@@ -271,4 +281,25 @@ button {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+img {
+  max-height: 40px;
+}
+
+#profile {
+  max-height: 40px;
+  border-radius: 50%;
+}
+
+input {
+  padding: 10px;
+}
+
+.trending-head {
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  top: -25px;
+  left: 13px;
 }/*# sourceMappingURL=style.css.map */
